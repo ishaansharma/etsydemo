@@ -43,7 +43,8 @@ gem 'bootstrap-sass', '~> 3.3.5'
 # Add gem of paperclip
 gem "paperclip", "~> 4.3"
 
-gem 'rails_12factor'
+#To manage users
+gem 'devise'
 
 group :production do
 	gem 'pg'
