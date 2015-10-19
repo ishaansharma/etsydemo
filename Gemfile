@@ -1,3 +1,4 @@
+source 'https://code.stripe.com'
 source 'https://rubygems.org'
 ruby "2.1.2"
 
@@ -45,6 +46,13 @@ gem "paperclip", "~> 4.3"
 
 #To manage users
 gem 'devise'
+
+
+gem 'stripe', :source => 'https://code.stripe.com/'
+
+gem 'rest-client', :source => 'https://rubygems.org/'
+
+gem "figaro"
 
 group :production do
 	gem 'pg'
